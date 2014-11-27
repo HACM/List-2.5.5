@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uca.list"
+    android:versionCode="4"
+    android:versionName="2.6.5" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Example" >
+        <activity
+            android:name="com.uca.list.Inicio"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Example" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".CrearCuenta"
+                android:label="Crear Cuenta"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".Informacion"
+                android:label="Información"
+                android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardPrincipal"
+            android:label="Clases" />
+        <activity
+            android:name=".DashboardAlumnos"
+            android:icon="@drawable/alumnosmenu"
+            android:label="Alumnos" />
+        <activity
+            android:name=".AgregarClase"
+            android:icon="@drawable/ic_action_new_event"
+            android:label="Nueva Clase"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AgregarActualizarLista"
+            android:label="Nueva Lista"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DashboardClase"
+            android:icon="@drawable/list"
+            android:label="Días de Asistencias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Asistencia"
+            android:icon="@drawable/listados"
+            android:label="Tomar Asistencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListaDetalles"
+            android:icon="@drawable/alumnosmenu"
+            android:label="Detalles de Asistencia"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators" >
+        </activity>
+        <activity
+            android:name=".PasosCSV"
+            android:icon="@drawable/csv"
+            android:label="Ayuda CSV archivo"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators" >
+        </activity>
+        <activity
+            android:name=".Tutorial"
+            android:icon="@drawable/ic_launcher"
+            android:label="Ayuda con ListInt"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators" >
+        </activity>
+    </application>
+
+</manifest>

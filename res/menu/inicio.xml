@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+            android:id="@+id/btn_perfil"
+            android:showAsAction="never"
+            android:title="@string/btn_perfil"/>
+    <item
+            android:id="@+id/btn_respaldar"
+            android:showAsAction="never"
+            android:title="@string/btn_respaldar"/>
+    <item
+            android:id="@+id/btn_descargar"
+            android:showAsAction="never"
+            android:title="@string/btn_descargar"/>
+    <item
+            android:id="@+id/btn_tutorial"
+            android:showAsAction="never"
+            android:title="@string/btn_tutorial"/>
+    <item
+            android:id="@+id/btn_info"
+            android:showAsAction="never"
+            android:title="@string/btn_info"/>
+    <item
+            android:id="@+id/btn_licencia"
+            android:showAsAction="never"
+            android:title="@string/btn_licencia"/>
+    <item
+        android:id="@+id/btn_cerrar_sesion"
+        android:showAsAction="never"
+        android:title="@string/btn_cerrar_sesion"/>
+    <item
+        android:id="@+id/btn_agregar_clase"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_new_event"
+        android:title="@string/btn_agregar_clase"/> 
+
+</menu>

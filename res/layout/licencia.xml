@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center">
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView" android:background="@drawable/appicon"
+            android:layout_gravity="center_horizontal|top" android:focusable="false"
+            android:layout_marginTop="0dp" android:layout_marginBottom="0dp"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge" android:text="Listin "
+              android:id="@+id/textView" android:layout_gravity="center_horizontal|top"
+              android:textAlignment="center" android:focusable="false" android:gravity="center"
+              android:layout_marginBottom="0dp" android:layout_marginTop="0dp"/>
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:layout_alignParentStart="true"
+            android:focusable="false" android:layout_centerInParent="true">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
+                      android:textAppearance="?android:attr/textAppearanceSmall" android:text="@string/descripcionLic"
+                      android:id="@+id/textView2"
+                      android:textIsSelectable="true" android:singleLine="false"
+                      android:layout_gravity="center_horizontal|top" android:gravity="center" android:textStyle="normal"
+                      android:typeface="sans" android:layout_marginTop="0dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceSmall"
+                      android:text="Copyright © 2014. All rights reserved." android:id="@+id/textView3"
+                      android:layout_gravity="center_horizontal|top" android:layout_below="@+id/linearLayout"
+                      android:layout_centerHorizontal="true" android:layout_marginTop="1dp"
+                      android:textStyle="bold|italic"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginTop="17dp" android:background="#ffe0dfe5">
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:layout_gravity="bottom">
+                        <Button
+                                android:layout_width="100dp"
+                                android:layout_height="40dp"
+                                android:text="NO"
+                                android:drawableLeft="@drawable/cancelarr"
+                                android:id="@+id/btncancelar" android:layout_gravity="bottom|left"
+                                android:background="#FFE0DFE5" android:layout_marginLeft="6dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" android:layout_gravity="bottom"
+                            >
+                        <Button
+                                android:layout_width="150dp"
+                                android:layout_height="40dp"
+                                android:text="Aceptar"
+                                android:drawableLeft="@drawable/aceptar"
+                                android:id="@+id/btnaceptar" android:layout_gravity="bottom|right"
+                                android:background="#FFE0DFE5"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Listin</string>
+    <string name="action_settings">Settings</string>
+    <string name="mnj_inicio">Bienvenido a Listin</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confir_contrasena">Confirmar Contraseña</string>
+    <string name="recuperar">¿Recuperar contraseña?</string>
+    <string name="img_descripccion"></string>
+    
+        
+    <string name="btn_continuar">Continuar</string>
+    <string name="btn_crear">Crear</string>
+    <string name="btn_ayuda">¿Ayuda?</string>
+    <string name="btn_recuperar">¿Recuperar?</string>
+    <string name="txtayuda2">Puedes importar todos los alumnos con el archivo CSV o luego tienes la opción de agregar uno por uno</string>
+    <string name="btn_saltar">Saltar</string>
+    <string name="btn_regresar">Regresar</string>
+    
+    
+    
+    <string name="txt_addclass">Datos de la clase:</string>
+    <string name="txt_addlist">Seleccionar Fecha</string>
+    <string name="txt_usuario">Datos:</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="txt_logeado">txt_logeado</string>
+    <string name="btn_agregar_clase">+</string>
+    <string name="btn_refresh_clase">Refrescar</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="btn_tutorial">Ayuda</string>
+    <string name="btn_cerrar_sesion">Cerrar sesión</string>
+    <string name="btn_info">Información</string>
+    <string name="btn_licencia">Licencia</string>
+
+    
+    <string name="descripcion">Descripción</string>
+    <string name="txt_ausencias">Limite de Ausencias</string> 
+    
+    <string name="background_title">Change background colour</string>
+    <string name="background_title2">Change  colour</string>
+	<string name="toast_title">Show toast message</string>
+    <string name="fecha">Fecha</string>
+    <string name="btn_archivo">Archivo CSV</string>
+    <string name="txt_nombre_archivo">No ha seleccionado un listado</string>
+    <string name="descripcionApp">Aplicación que te permite llevar las asistencias de todas tus clases, observar las ausencias de los alumnos, exportar a Excel, mandar asistencias de alumnos a sus correos, poder sincronizar todos tus datos a www.listin.hol.es para observar más comodamente tus asistencias desde tu computadora con conexión a Internet.
+    </string>
+    <string name="descripcionLic">Te damos la bienvenida a Listin \n
+        Te agradecemos que uses Listin. Los Servicios se proporcionan a través de SVSoft-Nicaragua, cuyo domicilio social está ubicado en Nicaragua, CA. 505. \n\n
+        Nuestras políticas juegan un papel muy importante para mantener una experiencia positiva para los usuarios. Cumple con estas políticas al usar Listin. El uso de Listin implica la aceptación de estas condiciones. Te recomendamos que las leas detenidamente. \n\n
+        Lo fundamental es no utilizar el contenido de forma diferente o con fines diferentes presentados por el servicio. \n
+        1.	No crees páginas que recopilen información de este servicio. \n
+        2.	No abuses de tu cuenta o de los servicios proporcionados para manipular los controles de acceso o los límites de uso. \n\n
+        Uso de Listin\n
+
+        Debes seguir las políticas disponibles a través de SVSoft-Nicaragua. \n
+        Solo podrás usar los Listin en la medida en que la ley lo permita. Podemos suspender o cancelar el uso de Listin si no cumples con nuestras políticas o condiciones o si consideramos que tu conducta puede ser malintencionada. \n\n
+        El uso de Listin no te convierte en titular de ninguno de los derechos de propiedad intelectual de los mismos ni del contenido al que accedas. Estas condiciones no te otorgan el derecho a usar las marcas ni los logotipos utilizados en Listin. No elimines, ocultes ni alteres los avisos legales que se muestren en Listin. \n\n
+        Podemos revisar el contenido para determinar si es ilegal o infringe nuestras políticas, y eliminarlo si tenemos razones suficientes para considerar que infringe nuestras políticas o la ley. Sin embargo, esta posibilidad no implica necesariamente que revisemos el contenido, por lo que no debes dar por sentado que vayamos a hacerlo. \n\n
+        Listin están disponibles en dispositivos móviles (Android). No utilices Listin de un modo que pueda distraerte y que te impida cumplir las leyes de tráfico o de seguridad. \n\n
+        Derechos de autor\n
+        Respeta las leyes de derechos de autor. No fomentes ni provoques infracciones de derechos de propiedad intelectual. Puedes notificar infracciones de derechos de autor a SVSoft-Nicaragua a través de este correo svsoftnic@gmail.com. \n\n
+        Modificar y cancelar nuestros Servicios\n
+        Puedes dejar de usar Listin en cualquier momento, aunque lamentaríamos que así fuera. De igual modo, SVSoft-Nicaragua puede añadir o crear nuevas limitaciones en cualquier momento. \n\n
+        Consideramos que eres el propietario de tus datos y que es importante preservar tu acceso a los mismos. Si interrumpimos un Servicio, en los casos en los que sea razonable, te informaremos con suficiente antelación y te permitiremos extraer la información de Listin. \n\n
+        Nuestras garantías y renuncias de responsabilidad\n
+        SVSoft-Nicaragua ofrece sus Servicios con un nivel de competencia y diligencia razonable desde el punto de vista comercial, y esperamos que disfrutes al usarlos. No obstante no podemos ofrecer garantías en relación con algunos aspectos de nuestros Servicios. \n\n
+
+        NI SVSOFT-NICARAGUA NI SUS DISTRIBUIDORES OFRECEN GARANTÍAS ESPECÍFICAS SOBRE LOS SERVICIOS EXPRESO EN ESTAS CONDICIONES O EN LAS CONDICIONES ADICIONALES. POR EJEMPLO, SVSOFT-NICARAGUA NO OFRECE NINGUNA GARANTÍA EN RELACIÓN CON SUS FUNCIONES ESPECÍFICAS, SU FIABILIDAD, SU DISPONIBILIDAD NI SU CAPACIDAD PARA SATISFACER TUS NECESIDADES. LOS SERVICIOS SE OFRECEN «TAL CUAL».\n\n
+        Responsabilidad por nuestros Servicios\n
+
+        EN LOS CASOS PERMITIDOS POR LA LEY, NI SVSOFT-NICARAGUA NI SUS DISTRIBUIDORES SERÁN RESPONSABLES DE LA PÉRDIDA DE INGRESOS NI DE DATOS, NI DE PÉRDIDAS. \n\n
+
+        EN LA MEDIDA EN QUE LA LEY LO PERMITA, POR CUALQUIER RECLAMACIÓN RELACIONADA CON ESTAS CONDICIONES, INCLUIDA CUALQUIER GARANTÍA IMPLÍCITA, SE LIMITA AL IMPORTE QUE HAYAS PAGADO PARA USAR LOS SERVICIOS (O, SI SVSOFT-NICARAGUA ASÍ LO DECIDE, A LA REANUDACIÓN DE LOS SERVICIOS). \n\n
+
+        EN NINGÚN CASO, NI SVSOFT-NICARAGUA NI SUS DISTRIBUIDORES SERÁN RESPONSABLES POR CUALQUIER PÉRDIDA QUE NO SEAN PREVISIBLES DE FORMA RAZONABLE. \n\n
+
+        LISTIN ES UN PRODUCTO QUE OFRECE\n
+        SvSoft-Nicaragua\n
+        TEL: 8263-7370\n
+        CORREO: svsoftnic@gmail.com\n
+
+    </string>
+    <string name="btn_descargar">Sincronizar</string>
+    <string name="btn_respaldar">Respaldar</string>
+
+</resources>
